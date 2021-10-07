@@ -1,5 +1,11 @@
 import contEdad from "./contEdad";
 import truthiness from "./truthiness";
+import Password from "./Password";
+import Null from "./Null";
+
+const n: Null = new Null(null);
+const w: Password = new Password (null);
+w.confirmPassword();
 
 const e: contEdad = new contEdad(24);
 e.contar();
